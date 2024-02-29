@@ -203,6 +203,17 @@ ul#menu li.tab_selected a:hover, ul#menu li a:hover
   background: transparent url(arrow.png) no-repeat left center;
   border: none;} 
 
+  /* Nasconde i sottomenu fino all'hover */
+.submenu {
+  display: none;
+  list-style: none;
+  padding: 0;
+}
+
+/* Mostra i sottomenu quando la sidebar è espansa */
+.menu-item:hover .submenu {
+  display: block; /* Mostra i sottomenu */
+}
 
 .sidebar li a.selected, .sidebar li a:hover, .sidebar li a.selected:hover
 { background: transparent url(arrow_select.png) no-repeat left center;} 
