@@ -219,7 +219,7 @@ ul#menu li.tab_selected a:hover, ul#menu li a:hover
   text-decoration: none;
   display: block;
   padding: 10px;
-  color: white;
+  color: red;
   background-color: #333;
   transition: background-color 0.3s;
 }
