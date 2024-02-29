@@ -212,6 +212,7 @@ ul#menu li.tab_selected a:hover, ul#menu li a:hover
 
 .menu-item {
   width: 100%;
+  color: orange;
 }
 
 .menu-item a {
